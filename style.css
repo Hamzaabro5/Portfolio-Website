@@ -49,3 +49,9 @@ nav{
     border-bottom: 0.3rem solid #a3b18a;
     transition: 0.3s ease-in-out;
 }
+.Hero-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--lighter-color);
+}

@@ -55,3 +55,13 @@ nav{
     justify-content: center;
     background-color: var(--lighter-color);
 }
+.Contact-section{
+    background-color: var(--dark-color);
+    color: #c2c5aa;
+    text-align: center;
+}
+.contact-tag{
+    display: flex;
+    margin: 0px 40rem;
+    gap: 5rem;
+}

@@ -157,7 +157,7 @@ nav{
 }
 .contact-tag{
   display: flex;
-  gap: 10rem;
+  gap: 6rem;
   place-content: center;
   margin-top: 3.5rem;
 }
@@ -166,6 +166,10 @@ nav{
 }
 .contact-tag h1{
   font-size: 2.5rem;
+}
+.contact-tag a{
+  color: #f8f1f1;
+  text-decoration: none;
 }
 
 /* Contact Section */

@@ -120,9 +120,20 @@ nav{
     background-color: var(--light-color);
 }
 .Project-section h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
-    padding: 5px 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.projects{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.card img{
+  width: 400px;
+  height: 35vh;
 }

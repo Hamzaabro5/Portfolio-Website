@@ -36,6 +36,7 @@ nav{
 }
 .nav-head h1{
     font-size: 2.5rem;
+    letter-spacing: 0.1rem;
 }
 .nav-tag a{
     text-decoration: none;
@@ -50,15 +51,15 @@ nav{
     transition: 0.3s ease-in-out;
 }
 .Hero-section{
-    margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--lighter-color);
     padding: 25px 0px;
+    border-bottom: 3px solid var(--dark-color);
+    color: #000000;
 }
 .hero-text{
-    color: #000000;
     font-size: 1.8rem;
 }
 .hi-text{
@@ -71,7 +72,7 @@ nav{
 }
 .hero-text h2{
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
 
     
   overflow: hidden;
@@ -114,4 +115,14 @@ nav{
     display: flex;
     margin: 0px 40rem;
     gap: 5rem;
+}
+.Project-section{
+    background-color: var(--light-color);
+}
+.Project-section h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }

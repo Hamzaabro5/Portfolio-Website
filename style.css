@@ -67,9 +67,9 @@ nav{
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--lighter-color);
-  padding: 60px 0px;
-    border-bottom: 3px solid var(--dark-color);
-    color: #000000;
+  padding: 65px 0px;
+  border-bottom: 3px solid var(--dark-color);
+  color: #000000;
   }
   .hero-text{
     font-size: 1.8rem;

@@ -52,9 +52,59 @@ nav{
 .Hero-section{
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--lighter-color);
+    padding: 25px 0px;
 }
+.hero-text{
+    color: #000000;
+    font-size: 1.8rem;
+}
+.hi-text{
+    color: #d3d3d3;
+    font-size: 5rem;
+}
+.name-text{
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+.hero-text h2{
+    text-align: center;
+    font-size: 4.5rem;
+
+    
+  overflow: hidden;
+  border-right: 0.15em solid #e9e2d5;
+  white-space: nowrap; 
+  margin: 0 auto;
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #eee9df;
+    }
+  }
+  
+  
+
+
+
+
 .Contact-section{
     background-color: var(--dark-color);
     color: #c2c5aa;

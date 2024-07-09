@@ -28,62 +28,75 @@ body {
 header{
     background-color: var(--darker-color);
 }
+
+
+
+
+
+/* Navbar Styling */
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
 }
 .nav-head h1{
-    font-size: 2.5rem;
-    letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 .nav-tag a{
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 0px 20px;
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    border-bottom: 0.3rem solid transparent;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0px 20px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  border-bottom: 0.3rem solid transparent;
 }
 .nav-tag a:hover{
-    border-bottom: 0.3rem solid #a3b18a;
-    transition: 0.3s ease-in-out;
+  border-bottom: 0.3rem solid #a3b18a;
+  transition: 0.3s ease-in-out;
 }
+/* Navbar Styling */
+
+
+
+
+
+/* Hero Section */
 .Hero-section{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: var(--lighter-color);
-    padding: 25px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--lighter-color);
+  padding: 60px 0px;
     border-bottom: 3px solid var(--dark-color);
     color: #000000;
-}
-.hero-text{
+  }
+  .hero-text{
     font-size: 1.8rem;
-}
-.hi-text{
+  }
+  .hi-text{
     color: #d3d3d3;
     font-size: 5rem;
-}
-.name-text{
+  }
+  .name-text{
     font-size: 4rem;
     letter-spacing: -2px;
-}
-.hero-text h2{
+  }
+  .hero-text h2{
     text-align: center;
     font-size: 5.5rem;
-
     
-  overflow: hidden;
-  border-right: 0.15em solid #e9e2d5;
-  white-space: nowrap; 
-  margin: 0 auto;
-  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-
-@keyframes typing {
+    
+    overflow: hidden;
+    border-right: 0.15em solid #e9e2d5;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
     from {
       width: 0;
     }
@@ -100,40 +113,59 @@ nav{
       border-color: #eee9df;
     }
   }
+  /* Hero Section */
   
   
 
 
 
-
-.Contact-section{
-    background-color: var(--dark-color);
-    color: #c2c5aa;
-    text-align: center;
-}
-.contact-tag{
-    display: flex;
-    margin: 0px 40rem;
-    gap: 5rem;
-}
+/* Project Section */
 .Project-section{
-    background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 .Project-section h1{
-    font-size: 4.5rem;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 4.5rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .projects{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 40px;
+  padding-bottom: 120px;
 }
 .card img{
   width: 400px;
   height: 35vh;
 }
+/* Project Section */
+
+
+
+
+
+/* Contact Section */
+.Contact-section{
+  background-color: var(--dark-color);
+  color: #f8f1f1;
+  text-align: center;
+  padding: 10% 0px;
+}
+.contact-tag{
+  display: flex;
+  gap: 10rem;
+  place-content: center;
+  margin-top: 3.5rem;
+}
+.Contact-section h1{
+  font-size: 6.5rem;
+}
+.contact-tag h1{
+  font-size: 2.5rem;
+}
+
+/* Contact Section */

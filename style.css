@@ -126,9 +126,15 @@ nav{
   font-size: 4.5rem;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 60px;
+  text-shadow: 4px 4px 4px #344e41;
+  /* padding-bottom: 60px; */
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.htmlprojectheading{
+  color: #a3a3a3;
+  text-shadow: 4px 4px 4px #000;
+  margin-bottom: 6rem;
 }
 .projects{
   display: flex;

@@ -202,6 +202,7 @@ nav{
   background: #777;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .secondary {

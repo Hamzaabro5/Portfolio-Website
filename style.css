@@ -81,12 +81,15 @@ nav{
     font-size: 1.8rem;
   }
   .hi-text{
-    color: #d3d3d3;
+    /* color: #032E0A; */
+    color: #012006;
     font-size: 5rem;
   }
   .name-text{
     font-size: 4rem;
     letter-spacing: -2px;
+    font-style: italic;
+    padding-left: 1rem;
   }
   .hero-text h2{
     text-align: center;

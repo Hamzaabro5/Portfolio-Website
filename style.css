@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 63.5%;}
+    font-size: 63%;
+}
 body,
 html {
   font-family: "Poppins", sans-serif;
@@ -72,6 +73,7 @@ nav{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   background-color: var(--lighter-color);
   padding: 65px 0px;
   border-bottom: 3px solid var(--dark-color);
@@ -102,6 +104,11 @@ nav{
     margin: 0 auto;
     animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
   
   
   @keyframes typing {
@@ -303,6 +310,7 @@ nav{
 }
 .contact-tag{
   display: flex;
+  flex-wrap: wrap;
   gap: 6rem;
   place-content: center;
   margin-top: 3.5rem;
@@ -343,6 +351,3 @@ nav{
 }
 
 /* Contact Section */
-
-
-

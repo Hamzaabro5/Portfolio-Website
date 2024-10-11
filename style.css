@@ -11,14 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    font-size: 63%;
-}
 body,
 html {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.4;
+  font-size: 63%;
   scroll-behavior: smooth;
   color: #ffffff;
 }
@@ -351,3 +349,10 @@ nav{
 }
 
 /* Contact Section */
+
+
+@media only screen and (max-width: 800px) {
+  html,body {
+    font-size: 43%;
+  }
+}
